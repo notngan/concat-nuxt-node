@@ -3,3 +3,7 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@mixin calc-width($container-width, $column-count) {
+  width: ($container-width / $columns) * $column-count;
+}

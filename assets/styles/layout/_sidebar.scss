@@ -1,5 +1,6 @@
 .sidebar {
   &__content {
+    margin-top: $top-bar-height;
     padding: $layout-spacing;
   }
 }

@@ -1,5 +1,5 @@
 <template>
-<header class="header">
+<header class="header sticky">
   <CcLogo class="header__logo" />
   <nav class="header__navbar">
     <ul>
