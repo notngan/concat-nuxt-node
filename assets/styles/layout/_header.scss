@@ -1,0 +1,28 @@
+.header {
+  padding-top: $layout-spacing;
+
+  &__logo {
+    padding-left: $layout-spacing;
+  }
+
+  &__navbar {
+    margin-top: $layout-spacing * 2;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+
+  li {
+    padding-left: $layout-spacing;
+    padding-right: $layout-spacing;
+
+      &:hover {
+        background-color: $color-gray-0;
+      }
+    }
+
+    a {
+      color: $link-color-dark;
+      line-height: 1.7;
+    }
+  }
+}
+

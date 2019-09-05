@@ -1,0 +1,22 @@
+.form {
+  &--search {
+    font-size: $font-size-sm;
+    height: $top-bar-height;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    border-bottom: $border-light;
+    padding-left: $inner-spacing;
+    padding-right: $inner-spacing;
+
+    &__icon {
+      line-height: $icon-size;
+      color: $color-gray-2;
+    }
+
+    &__input {
+      border: 0;
+      margin-left: $inner-spacing;
+    }
+  }
+}

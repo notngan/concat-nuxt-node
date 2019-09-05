@@ -1,0 +1,23 @@
+$min-value: 2 !default;
+$max-value: 30 !default;
+$step: 2 !default;
+
+$sides: (top: t, bottom: b, left: l, right: r);
+$properties: (margin: m, padding: p);
+
+$cursor: $min-value;
+
+@while $cursor <= $max-value {
+  @each $prop, $prop-abbr in $properties {
+    .#{$prop-abbr}-#{$cursor} {
+      #{$prop}: #{$cursor}px !important;
+    }
+
+    @each $side, $side-abbre in $sides {
+      .#{$prop-abbr}#{$side-abbre}-#{$cursor} {
+        #{$prop}-#{$side}: #{$cursor}px;
+      }
+    }
+  }
+  $cursor: $cursor + $step;
+}

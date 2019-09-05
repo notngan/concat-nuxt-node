@@ -1,0 +1,25 @@
+.tag {
+  border: $border-dark;
+  margin-bottom: $layout-spacing;
+
+  &__link {
+    display: block;
+    color: $link-color-dark;
+    font-weight: $font-weight-bold;
+    padding: $inner-spacing;
+
+    &:hover {
+      background-color: $color-gray-0;
+    }
+  }
+
+  &__item:last-child {
+    a {
+      border-top: $border-dark;
+      background-color: $color-gray-0;
+      color: $color-gray-4;
+      font-size: $font-size-sm;
+      font-weight: $font-weight-normal;
+    }
+  }
+}

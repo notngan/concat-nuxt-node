@@ -1,0 +1,12 @@
+:root {
+  box-sizing: border-box;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $font-size;
+  color: $base-font-color;
+  text-rendering: optimizeLegibility;
+}

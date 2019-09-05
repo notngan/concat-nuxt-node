@@ -1,0 +1,45 @@
+// colors
+$color-white: #fff !default;
+$color-gray-0: #f2f2f2 !default;
+$color-gray-1: #d9d9d9 !default;
+$color-gray-2: #c4c4c4 !default;
+$color-gray-3: #999 !default;
+$color-gray-4: #707070 !default;
+$color-gray-5: #171717 !default;
+$color-amber: #ffbf00 !default;
+
+// core colors
+$color-primary: $color-gray-5 !default;
+$color-secondary: $color-amber !default;
+
+// other colors
+$base-font-color: $color-gray-5 !default;
+$link-color: $color-amber !default;
+$link-color-dark: $color-gray-5 !default;
+
+// font size
+$base-font-size: 10px !default;
+$font-size: 1.9rem !default;
+$font-size-sm: 1.5rem !default;
+$font-size-md: 2.3rem !default;
+$font-size-lg: 2.9rem !default;
+
+$font-weight-bold: 700 !default;
+$font-weight-normal: 400 !default;
+
+// size
+$icon-size: 1.3rem !default;
+$top-bar-height: 49px !default;
+
+// base
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-line-height: 1.5 !default;
+
+// spacing
+$layout-spacing: 2rem !default;
+$inner-spacing: $layout-spacing / 2 !default;
+
+// grid
+$columns: 12 !default;
+$border-light: 1px solid $color-gray-1 !default;
+$border-dark: 1px solid $color-gray-3 !default;

@@ -1,0 +1,73 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 1.3rem 1.7rem;
+  border: none;
+  line-height: 1;
+  transition: box-shadow .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: $font-size;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &--primary {
+    background-color: $color-gray-5;
+    color: $color-white;
+    box-shadow: 6px 6px $color-gray-2;
+
+    &:hover {
+      box-shadow: 3px 3px $color-amber;
+    }
+  }
+
+  &--outline {
+    background-color: $color-white;
+    color: $color-gray-4;
+    border: solid 1px $color-gray-4;
+
+    &:hover{
+      box-shadow: 4px 4px $color-gray-4;
+    }
+
+    &.is-filled {
+      background-color: $color-gray-4;
+      color: $color-white;
+
+      &:hover {
+        box-shadow: none;
+        background-color: $color-white;
+        color: $color-gray-4;
+      }
+    }
+  }
+
+  &--icon {
+    font-size: 0;
+    padding: .9rem;
+
+    svg {
+      width: $icon-size;
+      height: $icon-size;
+    }
+  }
+
+  &.is-sm {
+    font-size: $font-size-sm;
+    padding: .2rem .4rem;
+    box-shadow: 2px 2px $color-gray-2;
+
+    &:hover {
+      box-shadow: 2px 2px $color-amber;
+    }
+  }
+
+  &.is-block {
+    display: block;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-md;
+  }
+}

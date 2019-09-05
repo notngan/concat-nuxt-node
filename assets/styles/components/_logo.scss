@@ -1,0 +1,11 @@
+.cc-logo {
+  img {
+    box-shadow: 6px 6px $color-amber;
+    transition: box-shadow .2s;
+
+    &:hover,
+    &:active {
+      box-shadow: -6px -6px $color-gray-3;
+    }
+  }
+}
