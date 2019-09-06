@@ -1,5 +1,4 @@
 :root {
-  box-sizing: border-box;
   line-height: $base-line-height;
   font-size: $base-font-size;
 }
@@ -9,4 +8,8 @@ body {
   font-size: $font-size;
   color: $base-font-color;
   text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
 }

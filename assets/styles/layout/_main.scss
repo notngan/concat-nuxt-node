@@ -1,12 +1,15 @@
 .main {
-  border-right: $border-light;
-  border-left: $border-light;
   min-height: 100vh;
+
+  &__topbar,
+  &__content {
+    border-right: $border-light;
+    border-left: $border-light;
+  }
 
   &__topbar {
     height: $top-bar-height;
     border-bottom: $border-light;
-    position: relative;
 
     &__title {
       @include center-y();
@@ -16,6 +19,7 @@
   }
 
   &__content {
+    margin-top: $top-bar-height;
     padding: $inner-spacing;
   }
 }
